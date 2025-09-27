@@ -58,7 +58,7 @@ const DataFlow = () => {
           <iframe
             width="100%"
             height={isMobile ? "220" : "380"}
-            src="https://www.youtube.com/embed/jya_NBB5v4M"
+            src="https://www.youtube.com/embed/SF16YDiUtfo"
             title="AI-Based Internship Recommendation Engine for PM Internship Scheme"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

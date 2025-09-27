@@ -11,6 +11,8 @@ import {
 import { Home, Info, Group, Explore } from '@mui/icons-material';
 import { useTheme } from '@mui/material/styles';
 import styles from './style';
+import ThreeSixtyIcon from '@mui/icons-material/ThreeSixty';
+
 
 const InterNovaNavBar = () => {
   const theme = useTheme();
@@ -22,7 +24,7 @@ const InterNovaNavBar = () => {
         <Toolbar sx={styles.toolbar}>
           <Typography variant="h6" sx={styles.logo}>
             <Explore sx={{ mr: 1 }} />
-            InterNova
+            InternConnect 360
           </Typography>
           <Box
             sx={{
@@ -57,14 +59,6 @@ const InterNovaNavBar = () => {
               href="#features"
             >
               Features
-            </Button>
-            <Button
-              sx={styles.navButton}
-              startIcon={<Group />}
-              component="a"
-              href="#team"
-            >
-              Team
             </Button>
           </Box>
         </Toolbar>

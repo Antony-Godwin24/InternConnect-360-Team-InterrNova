@@ -6,7 +6,7 @@ import styles from './style';
 import Antony from '../../../assets/Antony.jpg';
 
 const teamMembers = [
-  { name: 'HARIPRIYA A', role: 'Team Lead', photo: {Antony} },
+  { name: 'HARI PRIYA A', role: 'Team Lead', photo: {Antony} },
   { name: 'ANTONY GODWIN S', role: 'Mern Full Stack Developer', photo: {Antony}},
   { name: 'ATCHAYA K', role: 'Designer', photo: {Antony} },
   { name: 'AADHIKESAV A', role: 'Front End Developer',photo: {Antony} },
@@ -21,7 +21,7 @@ const Party = () => (
   <Box sx={styles.section} id='team'>
     <Container maxWidth="lg">
       <Typography variant="h2" sx={styles.sectionTitle}>
-        Meet the InterNova Team
+        Meet the InterrNova Team
       </Typography>
       <Typography variant="h6" sx={styles.sectionSubtitle}>
         K. Ramakrishnan College of Engineering | B.E. CSE

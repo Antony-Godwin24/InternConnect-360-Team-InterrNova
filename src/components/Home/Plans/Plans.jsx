@@ -97,7 +97,7 @@ const Plans = () => (
   <Box sx={styles.section} id="features">
     <Container maxWidth="lg">
       <Typography variant="h2" sx={styles.sectionTitle}>
-        Next for InterNova
+        Features of InternConnect 360
       </Typography>
       <Typography variant="h6" sx={styles.sectionSubtitle}>
         Advancing tech, AI features, and student outreach for PM Internship Scheme!

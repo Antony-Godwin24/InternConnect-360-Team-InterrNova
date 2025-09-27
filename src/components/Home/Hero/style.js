@@ -11,11 +11,11 @@ const styles = {
     justifyContent: 'center',
     textAlign: 'center',
     padding: '2rem',
-    paddingTop:'64px',
-    marginTop:'0',
+    paddingTop: '100px', // Make this at least as tall as your NavBar + any expansion
+    marginTop: 0,
     '@media (max-width: 600px)': {
       padding: '1.5rem',
-      paddingTop:'72px',
+      paddingTop: '160px', // Dynamic: increases to clear mobile nav
       minHeight: 'auto',
     },
   },

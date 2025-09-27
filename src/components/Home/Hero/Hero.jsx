@@ -22,10 +22,11 @@ const Hero = () => {
           <Grid item xs={12} md={6}>
             <Box sx={styles.heroContent}>
               <Typography variant="h1" sx={styles.heroTitle}>
-                InterNova<br />
-                <span style={{ color: "#ffd700" }}>PM Internship Portal</span>
+                InternConnect 360<br />
+                <span style={{ color: "#ffd700" }}>For PM Internship Portal</span><br />
               </Typography>
               <Typography variant="h5" sx={styles.heroSubtitle}>
+                <b>By The Team <span style={{color:'#ffd700',fontWeight:'bolder'}}>InterrNova</span></b><br />
                 <b>AI-Based Internship Recommendation Engine for PM Internship Scheme</b>
                 <br />
                 Empowering students with smart, multilingual and inclusive recommendations for government internships. Discover the right opportunities for your professional growth!
